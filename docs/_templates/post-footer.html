@@ -1,0 +1,27 @@
+{#- Created by JXP and Claude. Rendered in the article footer of every page;
+    emits the "Built with Claude" line and the giscus comment box on posts only. -#}
+{%- if pagename.startswith("posts/") %}
+<div class="ci-post-footer">
+  <p>Built with Claude (Anthropic). <a href="{{ pathto('how-its-made') }}">See How it's made</a>.</p>
+  <p class="ci-post-license">Text and figures © {{ copyright }}, licensed
+    <a href="{{ license_url }}" rel="license">CC BY-NC 4.0</a>.</p>
+</div>
+<section class="ci-comments" aria-label="Comments">
+  <script src="https://giscus.app/client.js"
+          data-repo="{{ giscus_repo }}"
+          data-repo-id="{{ giscus_repo_id }}"
+          data-category="{{ giscus_category }}"
+          data-category-id="{{ giscus_category_id }}"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="top"
+          data-theme="preferred_color_scheme"
+          data-lang="en"
+          data-loading="lazy"
+          crossorigin="anonymous"
+          async>
+  </script>
+</section>
+{%- endif %}

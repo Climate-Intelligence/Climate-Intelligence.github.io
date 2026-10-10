@@ -1,0 +1,6 @@
+docs/_build/
+__pycache__/
+*.py[cod]
+.DS_Store
+# Downloaded by scripts/build_footprint.py; a snapshot is committed on purpose
+# so the page still builds offline, so do not ignore docs/_static/footprint/.

@@ -1,0 +1,59 @@
+/* Created by JXP and Claude.
+   Palette from the banner (docs/scripts/CI_graphic.py in the dev repo):
+   navy #123b52, accent #c24a3f, text #16222e, muted #6b7885, bg #fbfcfe. */
+
+html[data-theme="light"] {
+  --pst-color-primary: #123b52;
+  --pst-color-primary-highlight: #0d2c3e;
+  --pst-color-secondary: #c24a3f;
+  --pst-color-secondary-highlight: #a33a31;
+  --pst-color-accent: #c24a3f;
+  --pst-color-text-base: #16222e;
+  --pst-color-text-muted: #6b7885;
+  --pst-color-background: #fbfcfe;
+  --pst-color-on-background: #ffffff;
+  --pst-color-link: #123b52;
+  --pst-color-link-hover: #c24a3f;
+  --pst-color-inline-code-links: #123b52;
+  --ci-hero-emph: #c24a3f;
+}
+html[data-theme="dark"] {
+  --pst-color-primary: #8fb8d1;
+  --pst-color-primary-highlight: #b3d0e2;
+  --pst-color-secondary: #e07a6f;
+  --pst-color-secondary-highlight: #ea9a91;
+  --pst-color-accent: #e07a6f;
+  --pst-color-link: #8fb8d1;
+  --pst-color-link-hover: #e07a6f;
+  --pst-color-inline-code-links: #8fb8d1;
+  --ci-hero-emph: #e07a6f;
+}
+
+/* Landing page */
+.ci-hero { margin: 0.5rem 0 1.25rem; }
+.ci-hero-title { font-size: 2.6rem; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 0.4rem; }
+.ci-hero-tagline { font-size: 1.25rem; color: var(--pst-color-text-muted); line-height: 1.45; margin: 0; }
+.ci-hero-emph { color: var(--ci-hero-emph); font-weight: 600; }
+img.ci-banner { border-radius: 10px; margin: 0.25rem 0 1.5rem; }
+
+/* Post footer + comments */
+.ci-post-footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--pst-color-border); color: var(--pst-color-text-muted); font-size: 0.95rem; }
+.ci-post-footer p { margin: 0.2rem 0; }
+.ci-comments { margin-top: 1.5rem; }
+
+/* Site footer */
+.ci-footer-links { margin: 0; font-size: 0.9rem; color: var(--pst-color-text-muted); }
+
+/* Figures: one convention for every post */
+figure.align-default, .figure { margin: 1.5rem 0; }
+figure img { border-radius: 6px; }
+figcaption { font-size: 0.92rem; color: var(--pst-color-text-muted); text-align: left; margin-top: 0.5rem; }
+figcaption strong { color: var(--pst-color-text-base); }
+
+/* Our footprint */
+iframe.ci-footprint { width: 100%; height: 840px; border: 1px solid var(--pst-color-border); border-radius: 8px; background: #fff; }
+.ci-footprint-note { font-size: 0.85rem; color: var(--pst-color-text-muted); }
+
+/* Postlist spacing */
+.postlist-style-none { padding-left: 0; }
+.postlist-style-none li { margin-bottom: 1rem; list-style: none; }

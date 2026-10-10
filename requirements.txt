@@ -1,0 +1,10 @@
+# Pinned to the versions resolved in the author's `CI` conda env on 2026-10-10
+# (Python 3.13). Keep in step with the dev repo's `site` extra in pyproject.toml.
+sphinx==9.1.0
+ablog==0.11.13
+pydata-sphinx-theme==0.23.0
+sphinx-design==0.7.0
+sphinxcontrib-youtube==1.5.0
+# "Our footprint" page: scripts/build_footprint.py regenerates the Bokeh plot
+bokeh==3.10.0
+pandas==3.0.6
