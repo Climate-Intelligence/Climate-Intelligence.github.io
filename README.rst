@@ -27,7 +27,7 @@ Layout
    ├── index.rst            landing page (hero, cards, latest posts)
    ├── blog.rst             all posts, with the ablog sidebar widgets
    │                        (ablog's own catalog/tags/feed are generated under /posts/)
-   ├── about.rst  principles.rst  how-its-made.rst  footprint.rst
+   ├── about.rst  contributors.rst  principles.rst  how-its-made.rst  footprint.rst
    ├── posts/NNN/slug/      one folder per post: index.rst + media/
    ├── _static/             custom.css, logo marks, footprint snapshot
    ├── _templates/          post-footer.html (Built-with line + giscus), footer-license.html

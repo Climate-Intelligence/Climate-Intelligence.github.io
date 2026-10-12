@@ -84,7 +84,7 @@ Site repository layout
    │   ├── conf.py
    │   ├── index.rst                  # landing page: hero, banner, cards, latest posts
    │   ├── blog.rst                   # full post listing + ablog sidebar widgets
-   │   ├── about.rst  principles.rst  how-its-made.rst  footprint.rst
+   │   ├── about.rst  contributors.rst  principles.rst  how-its-made.rst  footprint.rst
    │   ├── posts/
    │   │   └── NNN/                   # three-digit post number (Q33)
    │   │       └── slug/
@@ -387,7 +387,7 @@ Still open
 ----------
 
 * Podcast host and whether to embed its player.
-* A "Contributors" list once reviewers are named.
+* Bios for the Contributors page (added 2026-10-12 with two names).
 * Social accounts (YouTube, TikTok, Instagram) as footer icons once they exist.
 
 

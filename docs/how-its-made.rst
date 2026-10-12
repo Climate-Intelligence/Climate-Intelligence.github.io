@@ -17,7 +17,7 @@ Who does what
   its caption, and the caption links to the Python script that produced it,
   so any figure can be regenerated.
 - **Drafts are reviewed and edited by friends of the author** before they
-  are published. A contributors list will follow as the blog grows.
+  are published. They are named on the :doc:`Contributors <contributors>` page.
 - Every post carries the line *Built with Claude (Anthropic)* in its footer.
 
 The workflow

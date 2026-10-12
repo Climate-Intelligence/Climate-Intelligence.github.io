@@ -54,7 +54,7 @@ html_theme_options = {
         "text": "Climate Intelligence",
     },
     "navbar_align": "left",
-    "header_links_before_dropdown": 6,
+    "header_links_before_dropdown": 7,
     "show_prev_next": False,
     "search_bar_text": "Search Climate Intelligence…",
     "icon_links": [
@@ -81,6 +81,7 @@ _blog_widgets = [
 html_sidebars = {
     "index": [],
     "about": [],
+    "contributors": [],
     "principles": [],
     "how-its-made": [],
     "footprint": [],

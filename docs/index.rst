@@ -2,6 +2,8 @@
 
 :html_theme.sidebar_secondary.remove: true
 
+.. title:: Home
+
 .. meta::
    :description: Climate Intelligence. Coping with the two great exponentials: the climate crisis and AI.
 
@@ -64,6 +66,7 @@ Latest posts
 
    blog
    about
+   contributors
    principles
    how-its-made
    footprint

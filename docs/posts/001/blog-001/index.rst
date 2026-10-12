@@ -12,7 +12,12 @@
 Humans Suck at Exponentials
 ===========================
 
-Humans suck at exponentials. We just do. Which isn't to say that we are linear,
+Humans suck at exponentials. We just do. Something grows exponentially when it
+keeps doubling on a fixed clock, say every day, or every 22 years; that
+interval is its *doubling time*, and it is the one number to watch in every
+figure below. A penny that doubles every day is $1.28 after a week and more
+than five million dollars after a month, and the last day alone adds as much
+as all the days before it combined. Which isn't to say that we are linear,
 because we aren't. In fact, quite the opposite: we are highly non-linear (see:
 brain neuron). Yet, despite orders of magnitude sensitivity in seeing, hearing,
 and scent/taste, we struggle to fathom the power of exponentials. This might be
